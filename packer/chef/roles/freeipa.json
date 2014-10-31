@@ -1,0 +1,20 @@
+{
+  "name": "freeipa",
+  },
+  "override_attributes": {
+        "freeipa" : {
+          "ipa_admin_password" : "webhostingcoopPassword123",
+          "hostname" : "ipa.webhosting.coop",
+          "dir_manager_password" : "dirmanagerpassword123",
+          "domain" : "webhosting.coop",
+          "realm_name" : "WEBHOSTING.COOP"
+        },
+  },
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[yum::default]",
+    "recipe[freeipa::default]"
+  ],
+  "description": "Installs freeIPA",
+  "chef_type": "role"
+}
