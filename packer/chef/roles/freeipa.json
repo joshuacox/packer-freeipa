@@ -1,5 +1,5 @@
 {
-  "name": "freeipa",
+  "name": "freeipa"
   },
   "override_attributes": {
         "freeipa" : {
