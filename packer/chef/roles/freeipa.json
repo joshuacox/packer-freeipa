@@ -8,7 +8,7 @@
           "dir_manager_password" : "dirmanagerpassword123",
           "domain" : "webhosting.coop",
           "realm_name" : "WEBHOSTING.COOP"
-        },
+        }
   },
   "json_class": "Chef::Role",
   "run_list": [
