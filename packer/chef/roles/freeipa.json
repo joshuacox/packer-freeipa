@@ -1,6 +1,5 @@
 {
-  "name": "freeipa"
-  },
+  "name": "freeipa",
   "override_attributes": {
         "freeipa" : {
           "ipa_admin_password" : "webhostingcoopPassword123",
