@@ -33,9 +33,14 @@ parallels-iso|parallels-pvm)
     rm /home/vagrant/*.iso
     ;;
 
+qemu|qemu-kvm)
+    mkdir /tmp/qemu
+    rmdir /tmp/qemu
+    ;;
+
 *)
     echo "Unknown Packer Builder Type >>$PACKER_BUILDER_TYPE<< selected."
-    echo "Known are virtualbox-iso|virtualbox-ovf|vmware-iso|vmware-vmx|parallels-iso|parallels-pvm."
+    echo "Known are virtualbox-iso|virtualbox-ovf|vmware-iso|vmware-vmx|parallels-iso|parallels-pvm|qemu|qemu-kvm."
     ;;
 
 esac
