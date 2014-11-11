@@ -1,17 +1,13 @@
 {
   "name": "freeipa",
   "override_attributes": {
-    "node" : {
-      "default" : {
-        "freeipa" : {
-          "ipa_admin_password" : "webhostingcoopPassword123",
-          "hostname" : "ipa.webhosting.coop",
-          "dir_manager_password" : "dirmanagerPassword123",
-          "domain" : "webhosting.coop",
-          "realm_name" : "WEBHOSTING.COOP"
-        }
+      "freeipa" : {
+        "ipa_admin_password" : "webhostingcoopPassword123",
+        "hostname" : "ipa.webhosting.coop",
+        "dir_manager_password" : "dirmanagerPassword123",
+        "domain" : "webhosting.coop",
+        "realm_name" : "WEBHOSTING.COOP"
       }
-    }
   },
   "json_class": "Chef::Role",
   "run_list": [

@@ -3,6 +3,7 @@ source "https://api.berkshelf.com"
 cookbook "freeipa", github: "joshuacox/freeipa-cookbook"
 cookbook 'hostsfile'
 cookbook "chef_handler", github: "opscode-cookbooks/chef_handler"
+cookbook "chef-solo-search", github: "edelight/chef-solo-search"
 cookbook "iptables", github: "opscode-cookbooks/iptables"
 cookbook "logrotate", github: "stevendanna/logrotate"
 cookbook "pacman", github: "jesseadams/pacman"
