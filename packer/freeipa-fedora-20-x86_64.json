@@ -34,7 +34,7 @@
         ]
       ],
       "virtualbox_version_file": ".vbox_version",
-      "vm_name": "packer-fedora-20-x86_64"
+      "vm_name": "freeipa-packer-fedora-20-x86_64"
     },
     {
       "boot_command": [
@@ -54,7 +54,7 @@
       "ssh_wait_timeout": "10000s",
       "headless": "false",
       "type": "qemu",
-      "vm_name": "packer-fedora-20-x86_64"
+      "vm_name": "freeipa-packer-fedora-20-x86_64"
     },
     {
       "boot_command": [
@@ -75,7 +75,7 @@
       "ssh_wait_timeout": "10000s",
       "tools_upload_flavor": "linux",
       "type": "vmware-iso",
-      "vm_name": "packer-fedora-20-x86_64",
+      "vm_name": "freeipa-packer-fedora-20-x86_64",
       "vmx_data": {
         "cpuid.coresPerSocket": "1",
         "memsize": "512",
@@ -116,7 +116,7 @@
         ]
       ],
       "prlctl_version_file": ".prlctl_version",
-      "vm_name": "packer-fedora-20-x86_64"
+      "vm_name": "freeipa-packer-fedora-20-x86_64"
     }
   ],
   "post-processors": [
