@@ -52,7 +52,7 @@
       "ssh_port": 22,
       "ssh_username": "vagrant",
       "ssh_wait_timeout": "10000s",
-      "headless": "false",
+      "headless": "true",
       "format": "raw",
       "type": "qemu",
       "vm_name": "freeipa-packer-fedora-20-x86_64"
