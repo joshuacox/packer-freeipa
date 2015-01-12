@@ -11,17 +11,7 @@ help:
 
 build: vendor build-qemu beep
 
-oltorf: vendor customproxy build-qemu uncustomproxy beep
-
-customproxy:
-# @sed -i 's/d-i\ mirror\/http\/proxy\ string/d-i\ mirror\/http\/proxy\ string\ http:\/\/65.67.51.187:3142/' http/debian-7/preseed.cfg
-	@echo "adding custom proxy"
-	@cp -v preseed.cfg.oltorf http/debian-7/preseed.cfg
-
-uncustomproxy:
-# @sed -i 's/d-i\ mirror\/http\/proxy\ string\ http:\/\/65.67.51.187:3142/d-i\ mirror\/http\/proxy\ string/' http/debian-7/preseed.cfg
-	@echo "removing custom proxy"
-	@cp -v preseed.cfg.noproxy http/debian-7/preseed.cfg
+build-quiet: vendor build-qemu
 
 clean: cleanvendor cleanbuilds
 
